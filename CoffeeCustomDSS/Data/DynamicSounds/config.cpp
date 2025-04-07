@@ -17,7 +17,7 @@ class CfgSoundShaders
         samples[]=
         {
             {
-                "\Coffee\CoffeeCustomDSS\Data\DynamicSounds\YOUROGG",
+                "\Coffee\CoffeeCustomDSS\Data\DynamicSounds\1早晨_01",
                 1
             }
         };
@@ -28,7 +28,7 @@ class CfgSoundShaders
         samples[]=
         {
             {
-                "\Coffee\CoffeeCustomDSS\Data\DynamicSounds\YOUROGG",
+                "\Coffee\CoffeeCustomDSS\Data\DynamicSounds\2中午_01",
                 1
             }
         };
@@ -39,7 +39,7 @@ class CfgSoundShaders
         samples[]=
         {
             {
-                "\Coffee\CoffeeCustomDSS\Data\DynamicSounds\YOUROGG",
+                "\Coffee\CoffeeCustomDSS\Data\DynamicSounds\3夜晚到来_01",
                 1
             }
         };
@@ -50,7 +50,7 @@ class CfgSoundShaders
         samples[]=
         {
             {
-                "\Coffee\CoffeeCustomDSS\Data\DynamicSounds\YOUROGG",
+                "\Coffee\CoffeeCustomDSS\Data\DynamicSounds\4进入战斗_01",
                 1
             }
         };
@@ -61,7 +61,7 @@ class CfgSoundShaders
         samples[]=
         {
             {
-                "\Coffee\CoffeeCustomDSS\Data\DynamicSounds\YOUROGG",
+                "\Coffee\CoffeeCustomDSS\Data\DynamicSounds\地堡_01",
                 1
             }
         };
@@ -72,7 +72,7 @@ class CfgSoundShaders
         samples[]=
         {
             {
-                "\Coffee\CoffeeCustomDSS\Data\DynamicSounds\YOUROGG",
+                "\Coffee\CoffeeCustomDSS\Data\DynamicSounds\地堡2_01",
                 1
             }
         };
@@ -83,7 +83,7 @@ class CfgSoundShaders
         samples[]=
         {
             {
-                "\Coffee\CoffeeCustomDSS\Data\DynamicSounds\YOUROGG",
+                "\Coffee\CoffeeCustomDSS\Data\DynamicSounds\地堡3_01",
                 1
             }
         };
@@ -94,7 +94,7 @@ class CfgSoundShaders
         samples[]=
         {
             {
-                "\Coffee\CoffeeCustomDSS\Data\DynamicSounds\YOUROGG",
+                "\Coffee\CoffeeCustomDSS\Data\DynamicSounds\地堡4_01",
                 1
             }
         };
@@ -105,7 +105,7 @@ class CfgSoundShaders
         samples[]=
         {
             {
-                "\Coffee\CoffeeCustomDSS\Data\DynamicSounds\YOUROGG",
+                "\Coffee\CoffeeCustomDSS\Data\DynamicSounds\登录页面主题曲_01",
                 1
             }
         };
@@ -116,7 +116,51 @@ class CfgSoundShaders
         samples[]=
         {
             {
-                "\Coffee\CoffeeCustomDSS\Data\DynamicSounds\YOUROGG",
+                "\Coffee\CoffeeCustomDSS\Data\DynamicSounds\机场_01",
+                1
+            }
+        };
+        volume=0.25;
+    };
+    class Coffee_SoundShader_11: baseCharacter_SoundShader
+    {
+        samples[]=
+        {
+            {
+                "\Coffee\CoffeeCustomDSS\Data\DynamicSounds\机场2_01",
+                1
+            }
+        };
+        volume=0.25;
+    };
+    class Coffee_SoundShader_12: baseCharacter_SoundShader
+    {
+        samples[]=
+        {
+            {
+                "\Coffee\CoffeeCustomDSS\Data\DynamicSounds\军营_01",
+                1
+            }
+        };
+        volume=0.25;
+    };
+    class Coffee_SoundShader_13: baseCharacter_SoundShader
+    {
+        samples[]=
+        {
+            {
+                "\Coffee\CoffeeCustomDSS\Data\DynamicSounds\有湖的村子_01",
+                1
+            }
+        };
+        volume=0.25;
+    };
+    class Coffee_SoundShader_14: baseCharacter_SoundShader
+    {
+        samples[]=
+        {
+            {
+                "\Coffee\CoffeeCustomDSS\Data\DynamicSounds\最大城市_01",
                 1
             }
         };
@@ -204,6 +248,38 @@ class CfgSoundSets
         soundShaders[]=
         {
             "Coffee_SoundShader_10"
+        };
+        spatial=0;
+    };
+    class Coffee_SoundSet_11: baseCharacter_SoundSet
+    {
+        soundShaders[]=
+        {
+            "Coffee_SoundShader_11"
+        };
+        spatial=0;
+    };
+    class Coffee_SoundSet_12: baseCharacter_SoundSet
+    {
+        soundShaders[]=
+        {
+            "Coffee_SoundShader_12"
+        };
+        spatial=0;
+    };
+    class Coffee_SoundSet_13: baseCharacter_SoundSet
+    {
+        soundShaders[]=
+        {
+            "Coffee_SoundShader_13"
+        };
+        spatial=0;
+    };
+    class Coffee_SoundSet_14: baseCharacter_SoundSet
+    {
+        soundShaders[]=
+        {
+            "Coffee_SoundShader_14"
         };
         spatial=0;
     };
