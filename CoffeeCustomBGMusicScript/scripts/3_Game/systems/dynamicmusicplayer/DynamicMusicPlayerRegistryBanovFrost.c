@@ -74,9 +74,7 @@ class DynamicMusicPlayerRegistryBanovFrost : DynamicMusicPlayerRegistry
             {"13587 0 8879", "14087 800 9379"},
             {"12966 0 7294", "13566 800 7894"},
             {"8908 0 7683", "9308 800 8083"}
-        };Position: <11426.836914, 432.458923, 12123.083008>
-        Orientation: <-4.434613, 0.000000, -0.000000>
-        Config-Type: Land_Underground_Corridor_Main_Left
+        };
         RegisterTrackLocationStaticMultiRectangle("Coffee_SoundSet_13", village_with_lake, DynamicMusicPlayerTimeOfDay.ANY, true);
         
         //milaitary base
